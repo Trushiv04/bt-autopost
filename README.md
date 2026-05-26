@@ -23,7 +23,7 @@ A WordPress plugin that automatically generates complete blog posts using **Clau
 
 1. Download this repository as a ZIP, or clone it:
    ```bash
-   git clone https://github.com/USERNAME/bt-autopost.git
+   git clone https://github.com/Trushiv04/bt-autopost.git
    ```
 2. Copy the `bt-autopost` folder into your WordPress `wp-content/plugins/` directory.
 3. In the WordPress admin, go to **Plugins** and activate **BT AutoPost**.
