@@ -35,6 +35,8 @@ A WordPress plugin that automatically generates complete blog posts using **Clau
 3. Choose your post status (draft / publish), language, and default category.
 4. Click **Save Settings**.
 
+> **Note for WordPress 7.0+:** If you see an error like *"the openai/anthropic AI connector has not been approved for use"*, go to **Tools → Connector Approvals** in your WordPress admin. In the **Approval matrix**, find the **BT AutoPost** row and turn on the toggle for the provider you are using (e.g. **OpenAI**). WordPress 7.0 blocks plugin AI requests until they are explicitly approved here.
+
 ## Usage
 
 1. Go to **BT AutoPost → Generate Post**.
@@ -60,4 +62,4 @@ This project is licensed under the GPL-2.0-or-later License — see the [LICENSE
 
 ## Author
 
-Trushiv
+Trushiv04
